@@ -1,0 +1,170 @@
+/*impostazioni generali*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.65;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+header {
+    background-color: #000;
+    text-align: center;
+}
+
+header div img {
+    padding-top: 15px;
+    width: 35%;
+}
+
+/*Main*/
+
+main {
+    width: 100vw;
+}
+
+/*contenuti nel main*/
+
+main div p {
+    text-align: center;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+    height: 40vh;
+}
+
+main div a {
+    border-radius: 10px;
+    background-color: #fa4c2d;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+/*lavoro*/
+
+.lavoro {
+    width: 100vw;
+    background-color: #fff;
+}
+
+.lavoro h2,
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+.lavoro div {
+    text-align: center;
+}
+
+.lavoro div img {
+    border-radius: 250px;
+    padding-top: 30px;
+    width: 300px;
+
+}
+
+.mario-rossi {
+    background-color: #ee2603;
+    text-align: center;
+}
+
+.mario-rossi h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.mario-rossi p {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.mario-rossi p strong {
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 25px;
+
+}
+
+.cont-pc {
+    text-align: center;
+}
+
+
+
+.pc {
+    padding: 30px;
+    width: 80vw;
+    box-shadow: 2px 2px 2px gray, -2px 4px 2px gray;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cont-pc img {
+    width: 80%;
+}
+
+
+.pc-1 h2 {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.cont-pc2{
+    text-align: center;
+}
+
+.cont-pc2 img{
+    width: 80%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #25a2c3;
+    text-align: center;
+}
+
+footer div h2{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+footer div p{
+    color:#c8e7f0;
+}
+
+footer p a{
+    color: #c8e7f0;
+}
+
+.link{
+    text-decoration: none;
+}
